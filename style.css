@@ -41,3 +41,17 @@ article {
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
+
+.etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.etiquetas li {
+  border: 1px solid var(--color-borde);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
