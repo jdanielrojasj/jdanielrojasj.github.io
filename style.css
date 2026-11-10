@@ -66,3 +66,21 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.lista-contacto {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-contacto span {
+  color: var(--color-texto-secundario);
+}
+
+.lista-contacto a {
+  color: var(--color-texto);
+}
+
+.lista-contacto a:hover, 
+.lista-contacto a:focus-visible {
+  color: var(--color-azul);
+}
