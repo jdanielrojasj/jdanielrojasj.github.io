@@ -61,3 +61,8 @@ h2::before {
   color: var(--color-verde);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
