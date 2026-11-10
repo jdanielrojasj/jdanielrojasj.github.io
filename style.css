@@ -86,3 +86,9 @@ header {
 .lista-contacto a:focus-visible {
   color: var(--color-azul);
 }
+
+@media (max-width: 600px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+}
