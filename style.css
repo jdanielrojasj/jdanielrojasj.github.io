@@ -74,6 +74,8 @@ header {
 
 .lista-contacto span {
   color: var(--color-texto-secundario);
+  display: inline-block;
+  width: 8ch;
 }
 
 .lista-contacto a {
