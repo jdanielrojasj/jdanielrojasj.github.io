@@ -55,3 +55,9 @@ article {
   border-radius: 20px;
   padding: 3px 10px;
 }
+
+h2::before {
+  content: "dani@portafolio:~$ ";
+  color: var(--color-verde);
+}
+
