@@ -7,8 +7,6 @@
   --color-morado: #d2a8ff;
   --color-borde: #30363d;
   --fuente-mono: Consolas, "Courier New", monospace;
-  --color-naranja: #f0883e;
-  --color-amarillo: #e3b341;
 }
 
 body {
@@ -93,21 +91,6 @@ header {
   .tarjetas {
     grid-template-columns: 1fr;
   }
-}
-
-.etiquetas .html {
-  color: var(--color-naranja);
-  border-color: var(--color-naranja);
-}
-
-.etiquetas .css {
-  color: var(--color-azul);
-  border-color: var(--color-azul);
-}
-
-.etiquetas .js {
-  color: var(--color-amarillo);
-  border-color: var(--color-amarillo);
 }
 
 .cinta {
