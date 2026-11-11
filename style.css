@@ -137,10 +137,15 @@ header {
 
 .carrusel {
   overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
 }
 
 @keyframes desplazar {
   to {
     transform: translateX(-50%);
   }
+}
+
+.carrusel:hover .cinta {
+  animation-play-state: paused;
 }
