@@ -1,4 +1,5 @@
 :root {
+  --color-pagina: #010409;
   --color-fondo: #0d1117;
   --color-texto: #c9d1d9;
   --color-texto-secundario: #8b949e;
@@ -10,9 +11,13 @@
 }
 
 body {
-  background-color: var(--color-fondo);
+  background-color: var(--color-pagina);
   color: var(--color-texto);
   font-family: var(--fuente-mono);
+  margin: 0;
+  padding: 48px 16px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 a {
@@ -157,4 +162,13 @@ header {
   .cinta .copia {
     display: none;
   }
+}
+
+.ventana {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: 10px;
+  overflow: hidden;
 }
