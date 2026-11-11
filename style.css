@@ -109,3 +109,31 @@ header {
   color: var(--color-amarillo);
   border-color: var(--color-amarillo);
 }
+
+.cinta {
+  display: flex;
+  width: max-content;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cinta img {
+  width: 44px;
+  height: 44px;
+}
+
+.cinta li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 96px;
+  margin-right: 24px;
+  font-size: 0.8rem;
+  color: var(--color-texto-secundario);
+}
+
+.carrusel {
+  overflow: hidden;
+}
