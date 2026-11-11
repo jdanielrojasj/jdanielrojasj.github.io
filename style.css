@@ -116,6 +116,7 @@ header {
   list-style: none;
   margin: 0;
   padding: 0;
+  animation: desplazar 25s linear infinite;
 }
 
 .cinta img {
@@ -136,4 +137,10 @@ header {
 
 .carrusel {
   overflow: hidden;
+}
+
+@keyframes desplazar {
+  to {
+    transform: translateX(-50%);
+  }
 }
