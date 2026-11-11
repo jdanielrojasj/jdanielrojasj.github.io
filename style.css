@@ -135,8 +135,10 @@ header {
   }
 }
 
-.carrusel:hover .cinta {
-  animation-play-state: paused;
+@media (hover: hover) {
+  .carrusel:hover .cinta {
+    animation-play-state: paused;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
