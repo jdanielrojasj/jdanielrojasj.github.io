@@ -84,7 +84,7 @@ header {
   color: var(--color-texto);
 }
 
-.lista-contacto a:hover, 
+.lista-contacto a:hover,
 .lista-contacto a:focus-visible {
   color: var(--color-azul);
 }
@@ -137,7 +137,13 @@ header {
 
 .carrusel {
   overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 12%,
+    black 88%,
+    transparent
+  );
 }
 
 @keyframes desplazar {
@@ -148,4 +154,21 @@ header {
 
 .carrusel:hover .cinta {
   animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carrusel {
+    mask-image: none;
+  }
+
+  .cinta {
+    animation: none;
+    flex-wrap: wrap;
+    width: auto;
+    row-gap: 16px;
+  }
+
+  .cinta .copia {
+    display: none;
+  }
 }
