@@ -23,13 +23,13 @@ body {
 }
 
 a {
-  color: var(--color-texto-secundario);
+  color: var(--color-azul);
   text-decoration: none;
 }
 
 a:hover,
 a:focus-visible {
-  color: var(--color-azul);
+  text-decoration: underline;
 }
 
 article {
@@ -108,12 +108,7 @@ header {
 }
 
 .lista-contacto a {
-  color: var(--color-texto);
-}
-
-.lista-contacto a:hover,
-.lista-contacto a:focus-visible {
-  color: var(--color-azul);
+  overflow-wrap: anywhere;
 }
 
 .cinta {
@@ -212,6 +207,16 @@ nav {
   margin-left: auto;
   display: flex;
   gap: 18px;
+}
+
+nav a {
+  color: var(--color-texto-secundario);
+}
+
+nav a:hover,
+nav a:focus-visible {
+  color: var(--color-azul);
+  text-decoration: none;
 }
 
 main {
