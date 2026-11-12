@@ -199,3 +199,16 @@ nav {
   display: flex;
   gap: 18px;
 }
+
+main {
+  padding: 8px 32px 32px;
+}
+
+section {
+  padding-top: 40px;
+}
+
+section p {
+  margin: 0 0 16px;
+  max-width: 62ch;
+}
