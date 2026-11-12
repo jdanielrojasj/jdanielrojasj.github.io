@@ -35,7 +35,7 @@ a:focus-visible {
 article {
   border: 1px solid var(--color-borde);
   border-radius: 8px;
-  padding: 14px;
+  padding: 16px;
 }
 
 .proximamente {
@@ -46,10 +46,11 @@ article {
 .tarjetas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 14px;
 }
 
 .etiquetas {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -60,7 +61,9 @@ article {
 .etiquetas li {
   border: 1px solid var(--color-borde);
   border-radius: 20px;
-  padding: 3px 10px;
+  padding: 1px 10px;
+  font-size: 0.85rem;
+  color: var(--color-texto-secundario);
 }
 
 h1 {
@@ -230,6 +233,21 @@ section {
 section p {
   margin: 0 0 16px;
   max-width: 62ch;
+}
+
+article p {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+  color: var(--color-texto-secundario);
+}
+
+article .etiquetas {
+  margin-bottom: 14px;
+}
+
+article a {
+  margin-right: 14px;
+  font-size: 0.9rem;
 }
 
 footer {
