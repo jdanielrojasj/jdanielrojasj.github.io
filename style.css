@@ -36,11 +36,22 @@ article {
   border: 1px solid var(--color-borde);
   border-radius: 8px;
   padding: 16px;
+  transition: border-color 0.2s, transform 0.2s;
 }
 
 .proximamente {
   border-style: dashed;
-  opacity: 0.5;
+  opacity: 0.45;
+}
+
+article:hover {
+  border-color: var(--color-azul);
+  transform: translateY(-3px);
+}
+
+.proximamente:hover {
+  border-color: var(--color-borde);
+  transform: none;
 }
 
 .tarjetas {
