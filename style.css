@@ -96,12 +96,6 @@ header {
   color: var(--color-azul);
 }
 
-@media (max-width: 600px) {
-  .tarjetas {
-    grid-template-columns: 1fr;
-  }
-}
-
 .cinta {
   display: flex;
   width: max-content;
@@ -219,4 +213,26 @@ footer {
   text-align: center;
   font-size: 0.8rem;
   color: var(--color-texto-secundario);
+}
+
+@media (max-width: 600px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    padding: 16px 8px;
+  }
+
+  main {
+    padding: 0 18px 24px;
+  }
+
+  header p {
+    display: none;
+  }
+
+  nav {
+    gap: 12px;
+  }
 }
