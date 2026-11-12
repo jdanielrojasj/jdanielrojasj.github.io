@@ -9,7 +9,11 @@
   --color-morado: #d2a8ff;
   --color-borde: #30363d;
   --color-barra: #161b22;
-  --fuente-mono: Consolas, "Courier New", monospace;
+  --fuente-mono: Consolas, "Cascadia Mono", Menlo, "Courier New", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -214,6 +218,10 @@ header {
 
   article {
     transition: none;
+  }
+
+  html {
+    scroll-behavior: auto;
   }
 }
 
