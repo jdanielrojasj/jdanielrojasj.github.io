@@ -2,6 +2,8 @@
 
 Mi portafolio personal: una página con estilo de terminal donde me presento, enseño mis proyectos y dejo mis enlaces de contacto. Está hecho solo con HTML y CSS, sin frameworks.
 
+![Captura del portafolio](img/captura.png)
+
 ## Demo
 
 [Ver el portafolio](https://jdanielrojasj.github.io/)
