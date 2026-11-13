@@ -366,3 +366,7 @@ footer {
     opacity: 1;
   }
 }
+
+.mascota.despierta figcaption {
+  visibility: hidden;
+}
