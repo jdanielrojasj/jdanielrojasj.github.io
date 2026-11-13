@@ -370,3 +370,7 @@ footer {
 .mascota.despierta figcaption {
   visibility: hidden;
 }
+
+#sobre-mi p {
+  text-wrap: balance;
+}
