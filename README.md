@@ -1,6 +1,6 @@
 # Portafolio
 
-Mi portafolio personal: una página con estilo de terminal donde me presento, enseño mis proyectos y dejo mis enlaces de contacto. Está hecho solo con HTML y CSS, sin frameworks.
+Mi portafolio personal: una página con estilo de terminal donde me presento, enseño mis proyectos y dejo mis enlaces de contacto. Está hecho con HTML, CSS y JavaScript, sin frameworks.
 
 ![Captura del portafolio](img/captura.png)
 
@@ -12,6 +12,7 @@ Mi portafolio personal: una página con estilo de terminal donde me presento, en
 
 - HTML
 - CSS
+- JavaScript
 
 ## Qué he aprendido
 
@@ -22,3 +23,4 @@ Mi portafolio personal: una página con estilo de terminal donde me presento, en
 - Entender la especificidad y que, cuando dos reglas empatan, gana la que está más abajo en el archivo.
 - Adaptar la página al móvil con `@media` y usar las herramientas de desarrollador para encontrar lo que se sale de la pantalla.
 - Abrir los enlaces externos en otra pestaña con `target="_blank"` y protegerlos con `rel="noopener"`.
+- Mi primer JavaScript: buscar un elemento con `querySelector`, escuchar el clic con `addEventListener` y añadirle una clase con `classList.add` para que el CSS cambie su aspecto.
